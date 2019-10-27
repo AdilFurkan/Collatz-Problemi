@@ -4,7 +4,7 @@
 int main()
 {
     int sayi = 0;
-    int pid,status;
+    int pid,durum;
  
     printf("Lütfen pozitif bir sayı giriniz : ");
     scanf("%d", &sayi);
@@ -46,7 +46,7 @@ int main()
     else {
         printf("pid %d \n",pid);
     printf("Child process'in bitmesi bekleniyor.. \n");
-      wait(&status);
+      wait(&durum);
           } 
      
      
